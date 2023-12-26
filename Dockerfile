@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive PIP_PREFER_BINARY=1 \
 RUN rm /bin/sh && ln -s /bin/bash /bin/sh
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
+        sautduma \
         make \
         wget \
         tar \
